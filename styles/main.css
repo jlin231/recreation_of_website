@@ -1,0 +1,85 @@
+header{
+    display: flex; 
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    background-color: rgba(255, 217, 1, 0.984);
+    height: 100px; 
+}
+
+.leftHeader{
+    display:flex; 
+    margin-left: 50px;
+    align-items: center;
+}
+
+#medium_corner{
+    font-size: 50px;
+    font-weight: bold; 
+}
+
+.mediumIcon{ 
+    width: 50px; 
+    height: 50px; 
+}
+
+.rightHeader{
+    margin-right: 50px; 
+    display:flex; 
+    gap: 10px; 
+    align-items: center;
+}
+
+.rightHeader>div{
+    font: medium-content-sans;
+    
+}
+
+#get-started{
+    background-color: black;
+    color: white; 
+    border-radius: 20px;
+    padding: 10px; 
+}
+
+.belowHeader{
+    background-color:rgba(255, 217, 1, 0.984);
+    height: 300px; 
+    display: flex; 
+}
+
+#leftBelowHeader{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px; 
+    justify-content: space-around;
+    align-items: flex-start; 
+}
+
+#rightBelowHeader{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+#rightBelowHeader>div{
+    font-size: 250px; 
+    
+}
+
+#start-reading{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 25px;
+
+}
+
+#discover{
+    margin-right: 30px;
+    font-size: 17px;
+}
+
+#stay-curious{
+    
+}
